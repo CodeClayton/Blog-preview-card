@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  width: 80%;
+  width:85%;
   gap: 1rem;
   max-width: 450px;
   border-radius: 15px;
