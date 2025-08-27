@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --yellow: hsl(47, 88%, 63%);
   --white: hsl(0, 0%, 100%);
@@ -12,5 +18,60 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: var(--gray-950);
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100dvh;
+  gap: 20px;
+}
+
+.containerPreview{
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
+  width: 80%;
+  gap: 1rem;
+  max-width: 450px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 10px 10px 2px black;
+  border: 1px solid black;
+}
+
+.conatainerImg{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.conatainerImg img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.subtitle{
+  padding: 0.5rem 1rem;
+  background-color: var(--yellow);
+  width: 135px;
+  border-radius: 0.5rem;
+}
+
+h1{
+  font-size: 1.7rem;
+}
+
+.descTitle{
+  color: var(--gray-500);
+  font-size: 1.2rem;
+}
+
+.containerProfile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerProfile img{
+  width: 3rem;
 }
